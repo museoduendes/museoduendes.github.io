@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Roboto&display=swap');
+	</style>    
+	<!-- Bootstrap -->
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+	<link href="../css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+       <a class="navbar-brand"><img src="../imagenes/mldlogo.png" id="logo" class="img-fluid" alt="Placeholder image"></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+             </li>
+		    <li class="nav-item"><a class="nav-link" href="actividades.html">Actividades</a></li>
+            <li class="nav-item"><a class="nav-link" href="relatos.html">Relatos</a></li>
+            <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria<span class="sr-only">(current)</span></a></li>
+            <li class="nav-item active"><a class="nav-link" href="ubicacion.html">Ubicación</a></li>
+          </ul>
+       </div>
+  </nav>
+<div class="container mt-5">
+	<div class="w-100">&nbsp;</div>
+  <div class="container col-sm-9">
+	  	<h1 class="animate__animated animate__bounce animate__slow">¿Cómo llegar?</h1>
+        <p class="text-left">¡Embárcate en una mágica travesía al Museo de los Duendes en Huasca, "Primer Pueblo Mágico". Desplázate con facilidad desde la CDMX, optando por dos rutas: vía Tulancingo o vía Pachuca. Sumérgete en la cautivadora fusión de magia y cultura que ofrece este destino único. ¡Prepárate para una aventura inolvidable!</p>
+	</div>
+	  
+<!-- ============================== -->
+<!--  Codigo de maryyy onichan uwu  -->
+<!-- ============================== -->
+<div class="background-div">
+<div class="w-100">&nbsp;</div>
+<div class="w-100">&nbsp;</div>
+	<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4452.681842969343!2d-98.54644696289822!3d20.207170986393486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d10167aad16557%3A0xd33f9eb221275e48!2sMuseo%20de%20los%20Duendes!5e0!3m2!1ses!2smx!4v1732263309037!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+<div class="w-100">&nbsp;</div>
+<div class="w-100">&nbsp;</div>
+  <div id="butt">
+    <button id="link-map" type="button" class="btn btn-info animate__animated animate__tada animate__delay-2s animate__slow"><a href="https://maps.app.goo.gl/HEptDr5Vyzz6Tu2u9" target="_blank">Ir a Google Maps</a></button>
+  </div>
+<!-- ============================== -->
+<!--  termina mi codigo aquí borra  -->
+<!-- ============================== -->
+	  
+
+<div>
+<div class="w-100">&nbsp;</div>
+<div class="w-100">&nbsp;</div>
+<div class="w-100">&nbsp;</div>
+<div class="w-100">&nbsp;</div>	 
+  <p id="center" class="mt-4">  ¡Te invitamos a vivir este fascinante mundo de los duendes! Ven a visitarnos y sé testigo de una experiencia única, donde podrás explorar una amplia gama de vestigios materiales y orales que revelan la presencia de estos enigmáticos seres a lo largo de la historia humana. ¡Descubre el legado de los duendes y déjate sorprender por su influencia perdurable en nuestras vidas!</p></div>
+	<a href="#" id="backToTop" class="back-to-top">
+    <img src="../imagenes/flecha.png" alt="Ir arriba" />
+  </a>
+
+  <script>
+    const backToTopButton = document.getElementById("backToTop");
+
+    window.onscroll = function () {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        backToTopButton.style.display = "block";
+      } else {
+        backToTopButton.style.display = "none";
+      }
+    };
+
+    backToTopButton.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    });
+  </script>
+<div class="w-100">&nbsp;</div>
+<div class="w-100">&nbsp;</div>
+	  	  <div><img id="duendes" src="../imagenes/duende5.png" class="img-fluid animate__animated animate__pulse animate__infinite animate__slower" alt="Placeholder image"><!-- PON TU IMAGEN DEL DUENDECITO QUE LE TOCA A TU PÁGINA--> </div>
+<div class="w-100">&nbsp;</div>
+<div class="w-100">&nbsp;</div>
+<div id="footer" class="row">
+  <div class="text-center col-lg-6 offset-lg-3">
+<p>Copyright &copy; 2024 &middot; All Rights Reserved &middot; <a href="https://www.museodelosduendes.com.mx/museo-de-los-duendes-historia.html" >Museo de los Duendes</a></p>
+    </div>
+  </div>
+  </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="../js/jquery-3.3.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
