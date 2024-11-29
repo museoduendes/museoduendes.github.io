@@ -1,0 +1,355 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+green: #537332
+olive green: #A5A060
+brown: #332F24
+gray: #DFDFD9 !important;
+*/
+
+.navbar {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+	background-color: #332F24;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+body {
+    background-color: #DFDFD9 !important;
+    font-family: "Roboto", sans-serif;
+    color: #4b4b3b;
+	
+}
+.fondo {
+  background-image: url("../imagenes/museo-de-los-duendes-01.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%; 
+}
+.logo-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  align-items: center; 
+	
+}
+h1, .h1 {
+    color: #591902;
+	font-family: "Cinzel Decorative", serif;
+	font-weight: 900;
+	font-style: normal;
+	text-align: center;
+	margin-bottom:0;
+	padding: 0;
+	line-height: 1.2;
+	}
+h2{
+	color: #591902;
+	font-family: "Cinzel Decorative", serif;
+	font-weight: 900;
+	font-style: normal;
+	text-align: center;
+}
+.text-success{
+	font-weight: 600;
+}
+p {
+    font-family: "Roboto", sans-serif !important;
+	font-size: 1.1em;
+    margin: 0 auto;
+	text-align: justify;
+}
+.text-center{
+	font-family: "Cinzel Decorative", serif;
+	font-weight: 100;
+}
+.versalitas{
+	font-variant: small-caps;
+	font-size: 16pt;
+	
+}
+#center{
+    text-align: center;
+    font-size: 1.1em;
+}
+#logo{
+	padding-left: 30px;
+}
+.nav-item{
+	font-family: "Roboto", sans-serif;
+}
+nav{
+	font-family: "Roboto", sans-serif;
+}
+.nav-item.active {
+    background-color: #A5A060;
+    color: #FFFFFF; 
+    font-weight: 600; 
+}
+
+.nav-item.active .nav-link {
+    color: #FFFFFF;
+}
+
+ul{
+	font-family: "Roboto", sans-serif;
+}
+li{
+	border-radius: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+li:hover{
+	background-color: #A5A060;
+	font-weight: 500;
+}
+a{
+	font-family: "Roboto", sans-serif;
+}
+a:hover{
+	font-family: "Roboto", sans-serif;
+}
+footer{
+	font-family: "Roboto", sans-serif;
+}
+/*============================== 
+           MARYYYY         
+============================= */
+
+#moon{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50px;
+	height: auto;
+}
+#sun{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95px;
+	height: auto;
+}
+#footer{
+	padding-top: 80px;
+}
+#center{
+    text-align: justify;
+    font-style: light;
+    font-size: 1.1em;
+}
+#duendes{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img-fluid{
+	border-style: none;
+}
+.align-content-center{
+	align-content: center;
+	position: relative;
+}
+
+#map{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 520px;
+	width: 480px;
+}
+/*.background-div {
+     display: block;
+		margin-left: auto;
+		margin-right: auto;  
+		width: 90%;
+      height:auto;
+      background-image:url("imagenes/marco.png") ;
+      background-size:contain ; 
+      background-position: center;
+      background-repeat: no-repeat;
+    }*/
+#butt{
+	height: 85px;
+	
+}
+#link-map{
+	background-color: #591902;
+	height:80px;
+	width: 180px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+}
+#link-map:hover{
+	background-color: #591902;
+	height:85px;
+	width: 185px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#link-map a{
+	font-family: "Roboto", sans-serif;
+	text-decoration: none;
+	color: #DFDFD9;
+}
+#link-map a:hover{
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(108%);
+}
+.unico { 
+	display: inline-block;
+	align-items: center;
+	}
+ .social-bar {
+      position: fixed;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      z-index: 1000;
+    }
+
+    /* Estilo general para los iconos */
+    .social-bar .icon {
+      display: block;
+      width: 50px;
+      height: 50px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .social-bar .icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Efectos al pasar el cursor */
+    .social-bar .icon:hover {
+      transform: scale(1.1);
+      background-color: #f0f0f0;
+    }
+/*============================== 
+			SHOTA
+============================= */
+
+h6{
+	text-align: right;
+	padding-bottom: 15px;
+}
+
+h5{
+	color: #537332;
+}
+
+#img{
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+form{
+			padding: 10px;
+			background-color: #332F24;
+			color: #ffffff;
+			margin: 0 auto;
+			border-radius: 50px;
+			width: 70%
+		}
+
+#input{
+	width: 100%; 
+    height: 100px; 
+	margin: 0 auto;
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+	align-content: center;
+}
+				
+#name{
+	align-content: center;
+	width: 30%;
+}
+
+#center{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.btn-enviar {
+    border: 3px solid #537332;
+    background-color: #DFDFD9;
+    color: #537332;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background-color: #537332;
+    color: white;
+}
+.back-to-top {
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  width: 50px; 
+  height: 50px; 
+  display: none; 
+  z-index: 1000; 
+}
+
+.back-to-top img {
+  width: 100%; 
+  height: auto; 
+  cursor: pointer; 
+}
+
+.back-to-top:hover img {
+  opacity: 0.8; 
+}
+.back-to-top {
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  width: 50px; 
+  height: 50px; 
+  display: none; 
+  z-index: 1000; 
+}
+
+.back-to-top img {
+  width: 100%; 
+  height: auto; 
+  cursor: pointer; 
+}
+
+.back-to-top:hover img {
+  opacity: 0.8; 
+}
